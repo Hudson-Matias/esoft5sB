@@ -105,6 +105,9 @@ ul li {
   
   #curiosidades li::marker {
     content: '🔍';
+  }
+
+  #curiosidades ul{
     gap: 12px;
   }
   

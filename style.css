@@ -98,7 +98,6 @@ ul li {
   #info-squirtle img {
     width: 150px;
     height: 150px;
-    align-items: center;
     display: flex;
     justify-content: space-between;
     flex-direction: column;

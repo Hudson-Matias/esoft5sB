@@ -57,7 +57,6 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80vw;
     background-color: #343a40;
     padding: 10px;
     margin-bottom: 20px;

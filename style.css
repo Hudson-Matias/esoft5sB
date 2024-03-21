@@ -105,6 +105,10 @@ nav a:hover {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+#imagem1{
+  padding: 20px;
+}
   
 #curiosidades li::marker {
   content: '🔍';

@@ -101,7 +101,7 @@ ul li {
     align-self: center;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
   }
   
   #curiosidades li::marker {

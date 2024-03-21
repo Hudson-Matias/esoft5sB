@@ -107,14 +107,14 @@ nav a:hover {
 }
 
 #imagem1{
-  padding: 20px;
+  padding: 60px;
 }
   
 #curiosidades li::marker {
   content: '🔍';
 }
 
-#curiosidades li{
+#curiosidades{
   gap: 12px;
 }
   

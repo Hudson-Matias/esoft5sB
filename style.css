@@ -107,7 +107,7 @@ ul li {
     content: '🔍';
   }
 
-  #curiosidades ul{
+  #curiosidades > li{
     gap: 12px;
   }
   

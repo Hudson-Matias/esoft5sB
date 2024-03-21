@@ -105,6 +105,7 @@ ul li {
   
   #curiosidades li::marker {
     content: '🔍';
+    gap: 12px;
   }
   
   #evolucao ul {

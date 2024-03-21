@@ -100,7 +100,7 @@ ul li {
     height: 150px;
     align-self: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
   }
   

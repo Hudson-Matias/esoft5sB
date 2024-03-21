@@ -102,6 +102,11 @@ nav a:hover {
   justify-content: space-between;
   flex-direction: column;
 }
+
+.linha{
+  display: flex;
+  flex-direction: row;
+}
   
 #curiosidades li::marker {
   content: '🔍';

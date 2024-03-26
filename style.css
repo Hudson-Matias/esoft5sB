@@ -114,20 +114,36 @@ nav a:hover {
   align-self: center;
 }
 
+#info-squirtle div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#img-squirtle-2 {
+  padding: 35px;
+}
+
 #curiosidades li::marker {
   content: '🔍';
 }
 
+#curiosidades ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 #evolucao ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-
   list-style: none;
 }
 
 #evolucao img {
   height: 150px;
+  width: 150px;
 }
 
 #evolucao figcaption {
@@ -159,11 +175,15 @@ footer {
   background-color: #343a40;
   color: #fff;
   padding: 20px;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  bottom: 0;
-  gap: 5px;
+  gap: 16px;
+}
+
+footer p {
+  margin-bottom: 0;
 }
 
 footer a {
@@ -185,34 +205,4 @@ footer a[href*='tel'] {
 
 footer a[href]:hover {
   opacity: 0.8;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-
-}
-
-#new-img {
-  padding: 40px;
-
-}
-
-p {
-  margin-bottom: 0;
-  gap: 10px;
-}
-
-.curiosidades {
-  display: flex;
-}
-
-.itens-curiosidades {
-  margin-bottom: 12px;
-}
-
-#imagens-evolucao {
-  flex-wrap: wrap;
 }
